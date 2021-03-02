@@ -51,6 +51,8 @@ fetch_save_periodo <- function(periodo, out_file) {
 }
 
 main <- function(args) {
+  # Em 3 batches para o caso de um dar errado
+  # TO DO : mudar para um map ou loop
   fetch_save_periodo(
     seq(as.Date("2019-01-01"), as.Date("2019-12-31"), "days"), 
     str_glue("data/raw/presidente-2019_em_{Sys.Date()}.csv")
