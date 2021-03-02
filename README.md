@@ -4,9 +4,9 @@ Dados da agenda de representates públicos importantes.
 
 ## Presidente da República
 
-Dados prontos em `data/ready/presidente.csv`
+Dados prontos [aqui](https://github.com/nazareno/agendas-excelentissimas/blob/main/data/ready/presidente.csv?raw=true) ou em `data/ready/presidente.csv`
 
-Para coletar novos dados:
+Para coletar novos dados (demora uma meia hora):
 
 ```
 Rscript code/fetch_presidente.R 
